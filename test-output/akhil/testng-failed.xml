@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [akhil]">
+  <test name="Report">
+    <classes>
+      <class name="TestNg.LoginTest"/>
+      <class name="TestNg.LoginTest2"/>
+      <class name="com.reading.properites.ReadingDatafromProperties"/>
+    </classes>
+  </test> <!-- Report -->
+  <test name="Report(failed)">
+    <classes>
+      <class name="TestNg.LoginTest">
+        <methods>
+          <include name="setuplclose"/>
+          <include name="start"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNg.LoginTest -->
+      <class name="TestNg.LoginTest2">
+        <methods>
+          <include name="setup"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- TestNg.LoginTest2 -->
+    </classes>
+  </test> <!-- Report(failed) -->
+</suite> <!-- Failed suite [akhil] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="akhil">
+	<listeners>
+	</listeners>
+	<test name="Report" parallel="false">
+		<classes>
+			<class name="TestNg.LoginTest"></class>
+			<class name="TestNg.LoginTest2"></class>
+			<class name="com.reading.properites.ReadingDatafromProperties"></class>
+
+		</classes>
+	</test>
+</suite>
